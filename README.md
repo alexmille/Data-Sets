@@ -1,5 +1,5 @@
 #Data Sets
-Data sets I made to play with [Tableau software](http://www.tableau.com/). Most files are available in CSV format.
+Data sets made to play with [Tableau software](http://www.tableau.com/). Most files are available in CSV format.
 
 Current Projects :
 + [MLS Salaries](https://github.com/alexmille/DataSets/tree/master/MLS-Salaries)
