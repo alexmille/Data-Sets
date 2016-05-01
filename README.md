@@ -2,7 +2,7 @@
 Data sets I made to play with [Tableau software](http://www.tableau.com/). Most of the files are available in CSV format.
 
 Current Projects :
-+ MLS Salaries
++ [MLS Salaries](https://github.com/alexmille/DataSets/tree/master/MLS-Salaries)
 + James Bond Movies
 
 ##MLS Salaries
