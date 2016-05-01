@@ -1,5 +1,7 @@
 #Data Sets
-List of all the data sets I use when I play with [Tableau](http://www.tableau.com/)
+Data sets I use when I play with [Tableau software](http://www.tableau.com/)
+
+Files available in CSV format
 
 Current Projects :
 + MLS Salaries
@@ -21,11 +23,3 @@ Major League Soccer players salaries from 2007 until 2015:
 
 
 
-
-
-
-
-
-
-
-* [Data Sets](#Data Sets)
