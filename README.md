@@ -1,5 +1,5 @@
 #Data Sets
-I made these files for my experiments with [Tableau software](http://www.tableau.com/), but feel free to use with any other software. 
+I made these files for my experiments with [Tableau software](http://www.tableau.com/), but feel free to play with any other software. 
 
 Most files are available in CSV format and under the _WTFPL_ license.
 
