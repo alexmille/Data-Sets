@@ -3,8 +3,6 @@ I made these files for my experiments with [Tableau software](http://www.tableau
 
 Most files are available in CSV format and under the _WTFPL_ license.
 
-Enjoy !
-
 Current Projects :
 + [MLS Salaries](https://github.com/alexmille/DataSets/tree/master/MLS-Salaries)
 + James Bond Movies
