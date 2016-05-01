@@ -1,7 +1,7 @@
 #Data Sets
 I made these files for my experiments with [Tableau software](http://www.tableau.com/), but feel free to use with any other software. 
 
-Most files are available in CSV format and under the WTFPL license.
+Most files are available in CSV format and under the _WTFPL_ license.
 
 Enjoy !
 
