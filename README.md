@@ -24,18 +24,18 @@ Major League Soccer players salaries from 2007 until 2015 :
 
 |Header              |Example           |Description                                                           |
 |--------------------|------------------|----------------------------------------------------------------------|
-|SalaryShortClub     |SEA               |Team *(Seattle in example)*. **Foreign Key** (PK in *mlsTeams* table) |
+|SalaryShortClub     |SEA               |Team (Seattle in example). **Foreign Key** (PK in *mlsTeams* table)   |
 |SalaryLastName      |Doe               |Last Name                                                             |
 |SalaryFirstName     |John              |First Name                                                            |
 |SalaryName          |John Doe          |First & Last Name concatenated                                        |
-|SalaryPos           |GK                |Position *(goalkeeper in example)*                                    |
-|SalaryBaseSalary    |200.000 $         |Annual salary                                                         |
-|SalaryCompensation  |200.000 $         |Annual salary including bonuses                                       |
+|SalaryPos           |GK                |Position (goalkeeper in example)                                      |
+|SalaryBaseSalary    |200.000 $         |Annual salary (in USD)                                                |
+|SalaryCompensation  |200.000 $         |Annual salary including bonuses (in USD)                              |
 |SalaryDate          |July 10, 2008     |                                                                      |
 |SalaryYear          |2008              |                                                                      |
 |SalaryMonth         |July              |                                                                      |
 |SalaryMonthYear     |Jul-08            |                                                                      |
-|Designated Player   |Designated Player |Acts as a flag. Blank if not designated                               |
+|Designated Player   |Designated Player |Acts as a flag. Blank if not a designated player                      |
 |Remarks             |                  |Additional information                                                |
 
 ####Teams
