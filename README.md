@@ -24,13 +24,13 @@ Major League Soccer players salaries from 2007 until 2015 :
 
 |Header              |Example           |Description                                                           |
 |--------------------|------------------|----------------------------------------------------------------------|
-|SalaryShortClub     |SEA               |Team (Seattle in example). **Foreign Key** (PK in *mlsTeams* table)   |
+|SalaryShortClub     |SEA               |Team (Seattle in example). **Foreign Key** (**mlsTeams** table PK)    |
 |SalaryLastName      |Doe               |Last Name                                                             |
 |SalaryFirstName     |John              |First Name                                                            |
 |SalaryName          |John Doe          |First & Last Name concatenated                                        |
 |SalaryPos           |GK                |Position (goalkeeper in example)                                      |
-|SalaryBaseSalary    |200.000 $         |Annual salary (in USD)                                                |
-|SalaryCompensation  |200.000 $         |Annual salary including bonuses (in USD)                              |
+|SalaryBaseSalary    |200000.00         |Annual salary (in USD)                                                |
+|SalaryCompensation  |250000.00         |Annual salary including bonuses (in USD)                              |
 |SalaryDate          |July 10, 2008     |                                                                      |
 |SalaryYear          |2008              |                                                                      |
 |SalaryMonth         |July              |                                                                      |
