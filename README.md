@@ -1,7 +1,7 @@
 #Data Sets
 I made these files for my experiments with [Tableau software](http://www.tableau.com/), but feel free to play with any other software. 
 
-Most files are available in CSV format and under the _WTFPL_ license.
+Most files are available in CSV and/or JSON format and under the _WTFPL_ license.
 
 Current Projects :
 + [MLS Salaries](https://github.com/alexmille/DataSets/tree/master/MLS-Salaries)
