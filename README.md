@@ -10,6 +10,10 @@ Current Projects :
 _______
 
 ##MLS Salaries
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/alexmille/Data-Sets/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download alexmille/Data-Sets on GitHub">Download</a>
+<!-- Place this tag right after the last button or just before your close body tag. -->
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 Major League Soccer players salaries from 2007 until 2015 :
 + Source : [Major League Soccer Players Union website](https://www.mlsplayers.org/salary_info.html)
 + Raw data imported with [Tabula](http://tabula.technology/) 
@@ -22,5 +26,11 @@ Major League Soccer players salaries from 2007 until 2015 :
 
 
 
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/alexmille" data-style="mega" data-count-href="/alexmille/followers" data-count-api="/users/alexmille#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @alexmille on GitHub">Follow @alexmille</a>
+
+<!-- Place this tag right after the last button or just before your close body tag. -->
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 
 
