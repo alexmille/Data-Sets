@@ -39,7 +39,8 @@ Major League Soccer players salaries from 2007 until 2015 :
 |Remarks             |                  |Additional information                                                |
 
 ####Teams
-+ [mlsTeams.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.csv) : 
++ [mlsTeams.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.csv) 
++ [mlsTeams.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.json) 
 
 
 
