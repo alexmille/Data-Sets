@@ -21,6 +21,7 @@ Major League Soccer players salaries from 2007 until 2015 :
 + [salaries.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/salaries.json)
 
 **Example :**
+
 | SalaryShortClub | SalaryLastName | SalaryFirstName | SalaryName   | SalaryPos | SalaryBaseSalary | SalaryCompensation | SalaryDate  | SalaryYear | SalaryMonth | SalaryMonthYear | Designated Player | Remarks |
 |-----------------|----------------|-----------------|--------------|-----------|------------------|--------------------|-------------|------------|-------------|-----------------|-------------------|---------|
 |SEA              |Keller          |Kasey 	         |Kasey  Keller |GK 	    |-  	           |-  	                |July 10, 2008|2008        |July	     |Jul-08           |                   |         |
