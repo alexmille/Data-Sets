@@ -22,9 +22,21 @@ Major League Soccer players salaries from 2007 until 2015 :
 
 **Example :**
 
-| SalaryShortClub | SalaryLastName | SalaryFirstName | SalaryName   | SalaryPos | SalaryBaseSalary | SalaryCompensation | SalaryDate  | SalaryYear | SalaryMonth | SalaryMonthYear | Designated Player | Remarks |
-|-----------------|----------------|-----------------|--------------|-----------|-----------------:|-------------------:|-------------|------------|-------------|-----------------|-------------------|---------|
-|SEA              |Doe             |John 	         |John Doe      |GK 	    |200.000 $         |200.000 $  	        |July 10, 2008|2008        |July	     |Jul-08           |                   |         |
+|Header              |Example           |Description                                                           |
+|--------------------|------------------|----------------------------------------------------------------------|
+|SalaryShortClub     |SEA               |Team *(Seattle in example)*. **Foreign Key** (PK in *mlsTeams* table) |
+|SalaryLastName      |Doe               |Last Name                                                             |
+|SalaryFirstName     |John              |First Name                                                            |
+|SalaryName          |John Doe          |First & Last Name concatenated                                        |
+|SalaryPos           |GK                |Position *(goalkeeper in example)*                                    |
+|SalaryBaseSalary    |200.000 $         |Annual salary                                                         |
+|SalaryCompensation  |200.000 $         |Annual salary including bonuses                                       |
+|SalaryDate          |July 10, 2008     |                                                                      |
+|SalaryYear          |2008              |                                                                      |
+|SalaryMonth         |July              |                                                                      |
+|SalaryMonthYear     |Jul-08            |                                                                      |
+|Designated Player   |Designated Player |Acts as a flag. Blank if not designated                               |
+|Remarks             |                  |Additional information                                                |
 
 ####Teams
 + [mlsTeams.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.csv) : 
