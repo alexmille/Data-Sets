@@ -20,12 +20,16 @@ Major League Soccer players salaries from 2007 until 2015 :
 + Cleaned with [OpenRefine](http://openrefine.org/) and Excel
 
 ###Available Files :
-+ [salaries.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/salaries.csv) : Available fields:
+####Salaries
++ [salaries.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/salaries.csv)
++ [salaries.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/salaries.json)
 
-| SalaryShortClub | SalaryLastName | SalaryFirstName | SalaryName   | SalaryPos | SalaryBaseSalary | SalaryCompensation | SalaryDate  | SalaryYear | SalaryMonth | SalaryMonthYear |	Designated Player | Remarks |
-|-----------------|:--------------:|----------------:|-------------:|----------:|-----------------:|-------------------:|------------:|-----------:|------------:|----------------:|---------------------:|--------:|
-|SEA              |Keller          |Kasey 	         |Kasey  Keller |GK 	    |-  	           |-  	                |July 10, 2008|2008        |July	     |Jul-08           |                      |		    |
+**Example :
+| SalaryShortClub | SalaryLastName | SalaryFirstName | SalaryName   | SalaryPos | SalaryBaseSalary | SalaryCompensation | SalaryDate  | SalaryYear | SalaryMonth | SalaryMonthYear | Designated Player | Remarks |
+|-----------------|----------------|-----------------|--------------|-----------|------------------|--------------------|-------------|------------|-------------|-----------------|-------------------|---------|
+|SEA              |Keller          |Kasey 	         |Kasey  Keller |GK 	    |-  	           |-  	                |July 10, 2008|2008        |July	     |Jul-08           |                   |         |
 
+####Teams
 + [mlsTeams.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.csv) : 
 
 
