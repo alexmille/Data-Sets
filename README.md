@@ -23,8 +23,8 @@ Major League Soccer players salaries from 2007 until 2015 :
 **Example :**
 
 | SalaryShortClub | SalaryLastName | SalaryFirstName | SalaryName   | SalaryPos | SalaryBaseSalary | SalaryCompensation | SalaryDate  | SalaryYear | SalaryMonth | SalaryMonthYear | Designated Player | Remarks |
-|-----------------|----------------|-----------------|--------------|-----------|------------------|--------------------|-------------|------------|-------------|-----------------|-------------------|---------|
-|SEA              |Keller          |Kasey 	         |Kasey  Keller |GK 	    |-  	           |-  	                |July 10, 2008|2008        |July	     |Jul-08           |                   |         |
+|-----------------|----------------|-----------------|--------------|-----------|-----------------:|--------------------|-------------|------------|-------------|-----------------|-------------------|---------|
+|SEA              |Doe             |John 	         |John Doe      |GK 	    |200.000 $         |200.000 $  	        |July 10, 2008|2008        |July	     |Jul-08           |                   |         |
 
 ####Teams
 + [mlsTeams.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.csv) : 
