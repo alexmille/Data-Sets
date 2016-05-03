@@ -1,3 +1,4 @@
+#Alex's data sets
 I made these files for my experiments with [Tableau software](http://www.tableau.com/), but feel free to play with any other software.
 
 Most files are available in CSV and/or JSON format and under the _WTFPL_ license.
@@ -42,5 +43,3 @@ Major League Soccer players salaries from 2007 until 2015 :
 ###Teams
 + [mlsTeams.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.csv)
 + [mlsTeams.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.json)
-
-
