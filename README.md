@@ -1,4 +1,4 @@
-#Alex's data sets
+#Welcome to my data sets
 I made these files for my experiments with [Tableau software](http://www.tableau.com/), but feel free to play with any other software.
 
 Most files are available in CSV and/or JSON format and under the _WTFPL_ license.
@@ -7,14 +7,14 @@ If you find something useful, please [let me know](http://alexandre-mille.com/#C
 
 Current Projects :
 + [MLS Salaries](https://github.com/alexmille/DataSets/tree/master/MLS-Salaries)
-+ James Bond Movies
++ James Bond Movies (coming soon)
 
 _______
 
 #MLS Salaries
 Major League Soccer players salaries from 2007 until 2015 :
 + Source : [Major League Soccer Players Union website](https://www.mlsplayers.org/salary_info.html)
-+ Raw data extracted with [Tabula](http://tabula.technology/)
++ Raw data extracted from pdf files with [Tabula](http://tabula.technology/)
 + Cleaned with [OpenRefine](http://openrefine.org/) and Excel
 
 ##Available Files :
@@ -26,7 +26,7 @@ Major League Soccer players salaries from 2007 until 2015 :
 
 |Header              |Example           |Description                                                           |
 |--------------------|------------------|----------------------------------------------------------------------|
-|SalaryShortClub     |SEA               |Team (Seattle in example). **Foreign Key** (**mlsTeams** table PK)    |
+|SalaryShortClub     |SEA               |Team (Seattle in example). **Foreign Key** (PK in **mlsTeams** table) |
 |SalaryLastName      |Doe               |Last Name                                                             |
 |SalaryFirstName     |John              |First Name                                                            |
 |SalaryName          |John Doe          |First & Last Name concatenated                                        |
