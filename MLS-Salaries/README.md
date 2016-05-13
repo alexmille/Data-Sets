@@ -56,6 +56,7 @@ Major League Soccer players salaries from 2007 until 2015 :
 * The MLS regular season is followed by the 12-team MLS Cup Playoffs in November, ending with the MLS Cup championship final in early December
 * Teams are divided into the Eastern and Western Conferences
 
+
 |Season |Season Begins |Season Ends  |Cup Begins    |Cup Ends      |
 |-------|--------------|-------------|--------------|------------–-|
 |2015   |March 6       |October 25   |October 28    |December 6    |
