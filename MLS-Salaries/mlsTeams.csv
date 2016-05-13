@@ -1,28 +1,26 @@
-TeamShort,Team,TeamCity,TeamState,TeamCountry,TeamStadium,StadiumCoordinates,StadiumLatitude,StadiumLongitude,Conference,ActiveSince,Active,Defunct,Head Coach
-CHI,Chicago Fire,Bridgeview,Illinois,USA,Toyota Park,41¡45_53_N 87¡48_22_W,41¡45'53''N,87¡48'22''W,Eastern Conference,1998,Y,,Veljko Paunovi_
-COL,Colorado Rapids,Commerce City,Colorado,USA,Dick's Sporting Goods Park,39¡48_20_N 104¡53_31_W,39¡48'20''N,104¡53'31''W,Western Conference,1996,Y,,Pablo Mastroeni
-CLB,Columbus Crew SC,Columbus,Ohio,USA,Mapfre Stadium,40¡0_34_N 82¡59_28_W,40¡0'34''N,82¡59'28''W,Eastern Conference,1996,Y,,Gregg Berhalter
-DC,D.C. United,Washington,D.C.,USA,RFK Stadium,38¡53_23_N 76¡58_18_W,38¡53'23''N,76¡58'18''W,Eastern Conference,1996,Y,,Ben Olsen
-FCD,FC Dallas,Frisco,Texas,USA,Toyota Stadium,33¡9_16_N 96¡50_7_W,33¡9'16''N,96¡50'7''W,Western Conference,1996,Y,,îscar Pareja
-HOU,Houston Dynamo,Houston,Texas,USA,BBVA Compass Stadium,29¡45.132_N 95¡21.144_W,29¡45'132''N,95¡21.144'W,Western Conference,2006,Y,,Owen Coyle
-LAG,LA Galaxy,Carson,California,USA,StubHub Center,33¡51_52_N 118¡15_40_W,33¡51'52''N,118¡15'40''W,Western Conference,1996,Y,,Bruce Arena
-MTL,Montreal Impact,Montreal,Quebec,Canada,Saputo Stadium,45¡33_47_N 73¡33_9_W,45¡33'47''N,73¡33'9''W,Eastern Conference,2012,Y,,Mauro Biello
-NE,New England Revolution,Foxborough,Massachusetts,USA,Gillette Stadium,42¡05_27.40_N 71¡15_51.64_W,42¡05'27.40''N,71¡15'51.64''W,Eastern Conference,1996,Y,,Jay Heaps
-NYCFC,New York City FC,New York,New York,USA,Yankee Stadium,40¡49_45_N 73¡55_35_W,40¡49'45''N,73¡55'35''W,Eastern Conference,2015,Y,,Patrick Vieira
-NYRB,New York Red Bulls,Harrison,New Jersey,USA,Red Bull Arena,40¡44_12_N 74¡9_1_W,40¡44'12''N,74¡9'1''W,Eastern Conference,1996,Y,,Jesse Marsch
-ORL,Orlando City SC,Orlando,Florida,USA,Orlando Citrus Bowl,28¡32_21_N 81¡24_10_W,28¡32'21''N,81¡24'10''W,Eastern Conference,2015,Y,,Adrian Heath
-PHI,Philadelphia Union,Chester,Pennsylvania,USA,Talen Energy Stadium,39¡49_56_N 75¡22_44_W,39¡49'56''N,75¡22'44''W,Eastern Conference,2010,Y,,Jim Curtin
-POR,Portland Timbers,Portland,Oregon,USA,Providence Park,45¡31_17_N 122¡41_30_W,45¡31'17''N,122¡41'30''W,Western Conference,2011,Y,,Caleb Porter
-RSL,Real Salt Lake,Sandy,Utah,USA,Rio Tinto Stadium,40.582923¡N 111.893156¡W,40.582923¡N,111.893156¡W,Western Conference,2005,Y,,Jeff Cassar
-SJE,San Jose Earthquakes,San Jose,California,USA,Avaya Stadium,37¡21_5_N 121¡55_30_W,37¡21'5''N,121¡55'30''W,Western Conference,1996,Y,,Dominic Kinnear
-SEA,Seattle Sounders SC,Seattle,Washington,USA,CenturyLink Field,47.5952¡N 122.3316¡W,47.5952¡N,122.3316¡W,Western Conference,2009,Y,,Sigi Schmid
-SKC,Sporting Kansas City,Kansas City,Kansas,USA,Children's Mercy Park,39.1218¡N 94.8237¡W,39.1218¡N,94.8237¡W,Western Conference,1996,Y,,Peter Vermes
-TFC,Toronto FC,Toronto,Ontario,Canada,BMO Field,43¡37_58_N 79¡25_07_W,43¡37'58''N,79¡25'07''W,Eastern Conference,2007,Y,,Greg Vanney
-VAN,Vancouver Whitecaps FC,Vancouver,British Columbia,Canada,BC Place,49¡16_36_N 123¡6_43_W,49¡16'36''N,123¡6'43''W,Western Conference,2011,Y,,Carl Robinson
-CHV,Chivas USA,Carson,California,USA,StubHub Center,,,,Western Conference,2005,N,2014,
-MIAF,Miami Fusion,Fort Lauderdale,Florida,USA,Lockhart Stadium,,,,Eastern Conference,1998,N,2001,
-TBM,Tampa Bay Mutiny,Tampa,Florida,USA,Raymond James Stadium ,,,,Eastern Conference,1996,N,2001,
-ATL,Atlanta United FC,Atlanta,Georgia,USA,Mercedes-Benz Stadium,,,,Eastern Conference,2017,N,,
-LAFC,Los Angeles FC,Los Angeles,California,USA,LAFC Stadium,,,,Western Conference,2018,N,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
+Short,Team,City,State,Country,Stadium,StadiumLatitude,StadiumLongitude,Conference,Joined,Active,Defunct,
+ATL,Atlanta United FC,Atlanta,Georgia,USA,Mercedes-Benz Stadium,33.7545589,-84.4028024,Eastern Conference,2017,N,,
+CHI,Chicago Fire,Bridgeview,Illinois,USA,Toyota Park,41.7648147,-87.8060797,Eastern Conference,1998,Y,,
+CHV,Chivas USA,Carson,California,USA,StubHub Center,33.8643414,-118.2611082,Western Conference,2005,N,2014,
+CLB,Columbus Crew SC,Columbus,Ohio,USA,Mapfre Stadium,40.0089948,-82.9912198,Eastern Conference,1996,Y,,
+COL,Colorado Rapids,Commerce City,Colorado,USA,Dick's Sporting Goods Park,39.8056867,-104.8918117,Western Conference,1996,Y,,
+DC,D.C. United,Washington,D.C.,USA,RFK Stadium,38.8897896,-76.9718806,Eastern Conference,1996,Y,,
+FCD,FC Dallas,Frisco,Texas,USA,Toyota Stadium,33.154248,-96.8359145,Western Conference,1996,Y,,
+HOU,Houston Dynamo,Houston,Texas,USA,BBVA Compass Stadium,29.7529691,-95.3519378,Western Conference,2006,Y,,
+LAFC,Los Angeles FC,Los Angeles,California,USA,LAFC Stadium,34.013,-118.285,Western Conference,2018,N,,
+LAG,LA Galaxy,Carson,California,USA,StubHub Center,33.8643414,-118.2611082,Western Conference,1996,Y,,
+MIAF,Miami Fusion,Fort Lauderdale,Florida,USA,Lockhart Stadium,26.1911944,-80.1594801,Eastern Conference,1998,N,2001,
+MTL,Montreal Impact,Montreal,Quebec,Canada,Saputo Stadium,45.4544015,-73.6418964,Eastern Conference,2012,Y,,
+NE,New England Revolution,Foxborough,Massachusetts,USA,Gillette Stadium,42.0925375,-71.2641249,Eastern Conference,1996,Y,,
+NYCFC,New York City FC,New York,New York,USA,Yankee Stadium,40.8288189,-73.9265691,Eastern Conference,2015,Y,,
+NYRB,New York Red Bulls,Harrison,New Jersey,USA,Red Bull Arena,40.7366401,-74.1496172,Eastern Conference,1996,Y,,
+ORL,Orlando City SC,Orlando,Florida,USA,Orlando Citrus Bowl,28.5388985,81.4033425,Eastern Conference,2015,Y,,
+PHI,Philadelphia Union,Chester,Pennsylvania,USA,Talen Energy Stadium,39.8330235,-75.3778345,Eastern Conference,2010,Y,,
+POR,Portland Timbers,Portland,Oregon,USA,Providence Park,45.5216743,-122.6908289,Western Conference,2011,Y,,
+RSL,Real Salt Lake,Sandy,Utah,USA,Rio Tinto Stadium,40.5830245,-111.8932777,Western Conference,2005,Y,,
+SEA,Seattle Sounders SC,Seattle,Washington,USA,CenturyLink Field,47.5933039,-122.3321654,Western Conference,2009,Y,,
+SJE,San Jose Earthquakes,San Jose,California,USA,Avaya Stadium,37.3517215,-121.9228201,Western Conference,1996,Y,,
+SKC,Sporting Kansas City,Kansas City,Kansas,USA,Children's Mercy Park,39.122757,-94.8249294,Western Conference,1996,Y,,
+TBM,Tampa Bay Mutiny,Tampa,Florida,USA,Raymond James Stadium ,27.975833,-82.503333,Eastern Conference,1996,N,2001,
+TFC,Toronto FC,Toronto,Ontario,Canada,BMO Field,43.6862557,-79.5811089,Eastern Conference,2007,Y,,
+VAN,Vancouver Whitecaps FC,Vancouver,British Columbia,Canada,BC Place,49.2766941,-123.1119982,Western Conference,2011,Y,,
