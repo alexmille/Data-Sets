@@ -42,3 +42,20 @@ Major League Soccer players salaries from 2007 until 2015 :
 ###Teams
 + [mlsTeams.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.csv)
 + [mlsTeams.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.json)
+
+**Example :**
+
+|Header              |Example           |Description                                                           |
+|--------------------|------------------|----------------------------------------------------------------------|
+|Short               |CHV               |Team (Chivas in example). **Primary Key** (FK in **mlsTeams** table)  |
+|Team                |Chivas USA        |Team Full Name                                                        |
+|City                |Carson            |Where are they playing ?                                              |
+|State               |California        |In which State ?                                                      |
+|Country             |USA               |US or Canada ?                                                        |
+|Stadium             |StubHub Center    |Current Stadium                                                       |
+|StadiumLatitude     |33.8643414        |Stadium Latitude                                                      |
+|StadiumLongitude    |-118.2611082      |Stadium Longitude (but you guessed it, didn't you ?)                  |
+|Conference          |Western Conference|East side Vs West side                                                |
+|Joined              |2005              |When did this team joined the League ?                                |
+|Active              |N                 |Is this team still active ? Y for yes, N for no                       |
+|Defunct             |2014              |This team ceased to exist that year                                   |
