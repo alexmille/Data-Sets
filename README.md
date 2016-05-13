@@ -1,5 +1,5 @@
 #Welcome to my data sets
-I made these files to play with [Tableau software](http://www.tableau.com/), but feel free to use with any other software.
+I made these files to play with [Tableau software](http://www.tableau.com/), but feel free to use them with any other software.
 
 Most files are available in CSV and/or JSON format.
 
