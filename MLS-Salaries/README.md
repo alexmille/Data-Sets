@@ -10,6 +10,7 @@ Major League Soccer players salaries from 2007 until 2015 :
 + [salaries.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/salaries.json)
 
 **Example :**
+
 |Header              |Example           |Description                                                           |
 |--------------------|------------------|----------------------------------------------------------------------|
 |SalaryShortClub     |SEA               |Team (Seattle in example). **Foreign Key** (PK in **mlsTeams** table) |
@@ -31,6 +32,7 @@ Major League Soccer players salaries from 2007 until 2015 :
 + [mlsTeams.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.json)
 
 **Example :**
+
 |Header              |Example           |Description                                                           |
 |--------------------|------------------|----------------------------------------------------------------------|
 |Short               |CHV               |Team (Chivas in example). **Primary Key** (FK in **mlsTeams** table)  |
@@ -55,7 +57,6 @@ Major League Soccer players salaries from 2007 until 2015 :
 * The Supporters' Shield is an annual award given to the Major League Soccer team with the best regular season record, as determined by the MLS points system
 * The MLS regular season is followed by the 12-team MLS Cup Playoffs in November, ending with the MLS Cup championship final in early December
 * Teams are divided into the Eastern and Western Conferences
-
 
 |Season |Season Begins |Season Ends  |Cup Begins    |Cup Ends      |
 |-------|--------------|-------------|--------------|------------–-|
