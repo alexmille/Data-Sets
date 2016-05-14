@@ -5,6 +5,9 @@ Major League Soccer players salaries from 2007 until 2015 :
 + Cleaned with [OpenRefine](http://openrefine.org/) and Excel
 
 ##Available Files :
+There are 2 tables available, salaries and mlsTeams.
+You can join **__SalaryShortClub__** field from the salaries table with the **__Short__** field present in the mlsTeams table.
+
 ###Salaries
 + [salaries.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/salaries.csv)
 + [salaries.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/salaries.json)
