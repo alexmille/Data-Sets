@@ -57,7 +57,7 @@ Salaries are available for the following years and months :
 
 |Header              |Example           |Description                                                           |
 |--------------------|------------------|----------------------------------------------------------------------|
-|Short               |CHV               |Team (Chivas in example). **Primary Key** (FK in **mlsTeams** table)  |
+|Short               |CHV               |Team (Chivas in example). **Primary Key** (FK in **salaries** table)  |
 |Team                |Chivas USA        |Team Full Name                                                        |
 |City                |Carson            |Where are they playing ?                                              |
 |State               |California        |In which State ?                                                      |
