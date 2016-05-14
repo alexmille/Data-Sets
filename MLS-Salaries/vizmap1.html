@@ -1,0 +1,139 @@
+<?php
+  session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+</head>
+<title></title>
+<body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+<script src="http://datamaps.github.io/scripts/datamaps.all.min.js"></script>
+<div id="carte1" style="position: relative; width: 100%; height: 600px;">
+	<script>
+		var UsaCanada = new Datamap({
+			element: document.getElementById("carte1"),
+			scope: 'world',
+			fills: {
+				defaultFill: '#337ab7' //the keys in this object map to the "fillKey" of [data] or [bubbles]
+			},
+			
+			responsive: false, //if true, call `resize()` on the map object when it should adjust it's size
+
+			geographyConfig: {
+				dataUrl: null, //if not null, datamaps will fetch the map JSON (currently only supports topojson)
+				hideAntarctica: true,
+				borderWidth: 1,
+				borderOpacity: 1,
+				borderColor: '#FFF',
+				popupTemplate: function(geography, data) { //this function should just return a string
+					return '<div class="hoverinfo"><strong>' + geography.properties.name + '</strong></div>';
+					},
+				popupOnHover: false, //disable the popup while hovering
+				highlightOnHover: true,
+				highlightFillColor: '#337ab7',
+				highlightBorderColor: '#FFF',
+				highlightBorderWidth: 2,
+				highlightBorderOpacity: 1
+			},
+
+			bubblesConfig: {
+				borderWidth: 2,
+				borderOpacity: 1,
+				borderColor: '#FFFFFF',
+				popupOnHover: true,
+				radius: null,
+				popupTemplate: function(geography, data) {
+					return '<div class="hoverinfo"><strong>' + data.name + '</strong></div>';
+				},
+				fillOpacity: 0.75,
+				animate: true,
+				highlightOnHover: true,
+				highlightFillColor: '#FFF',
+				highlightBorderColor: '#FF00FF',
+				highlightBorderWidth: 2,
+				highlightBorderOpacity: 1,
+				highlightFillOpacity: 0.85,
+				exitDelay: 100,
+				key: JSON.stringify
+			},
+				
+			// Zoom in on US & Canada
+			setProjection: function(element) {
+				var projection = d3.geo.equirectangular()
+					.center([-90, 40])
+					.rotate([4.4, 0])
+					.scale(950)
+					.translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+				var path = d3.geo.path()
+					.projection(projection);
+				
+				return {path: path, projection: projection};
+			},
+
+			fills: {
+				defaultFill: "#337ab7",
+				CHI: '#FFF',
+				CLB: '#FFF',
+				COL: '#FFF',
+				gt75: '#0fa0fa',
+				lt50: '#0fa0fa',
+				eq0: '#0fa0fa',
+				pink: '#0fa0fa',
+				gt500: '#0fa0fa'
+			},
+				
+			data: {
+				'ZAF': { fillKey: 'gt50' },
+				'ZWE': { fillKey: 'lt25' },
+				'NGA': { fillKey: 'lt50' },
+				'MOZ': { fillKey: 'eq50' },
+				'MDG': { fillKey: 'eq50' },
+				'EGY': { fillKey: 'gt75' },
+				'TZA': { fillKey: 'gt75' },
+				'LBY': { fillKey: 'eq0' },
+				'DZA': { fillKey: 'gt500' },
+				'SSD': { fillKey: 'pink' },
+				'SOM': { fillKey: 'gt50' },
+				'GIB': { fillKey: 'eq50' },
+				'AGO': { fillKey: 'lt50' }
+			}
+		});
+
+		UsaCanada.bubbles([
+		 {name: 'Chicago Fire', latitude: 41.7648147, longitude: -87.8060797, radius: 5, fillKey: 'CHI', Total_Salary: '5 389 775'},
+		 {name: 'Columbus Crew SC', latitude: 40.0089948, longitude: -82.9912198, radius: 15, fillKey: 'CLB', Total_Salary: ''},
+		 {name: 'Colorado Rapids', latitude: 39.8056867, longitude: -104.8918117, radius: 15, fillKey: 'COL', Total_Salary: ''},
+		 {name: 'D.C. United', latitude: 38.8897896, longitude: -76.9718806, radius: 15, fillKey: 'DC', Total_Salary: ''},
+		 {name: 'FC Dallas', latitude: 33.154248, longitude: -96.8359145, radius: 15, fillKey: 'FCD', Total_Salary: ''},
+		 {name: 'Houston Dynamo', latitude: 29.7529691, longitude: -95.3519378, radius: 15, fillKey: 'HOU', Total_Salary: ''},
+		 {name: 'LA Galaxy', latitude: 33.8643414, longitude: -118.2611082, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'Montreal Impact', latitude: 45.4544015, longitude: -73.6418964, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'New England Revolution', latitude: 42.0925375, longitude: -71.2641249, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'New York City FC', latitude: 40.8288189, longitude: -73.9265691, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'New York Red Bulls', latitude: 40.7366401, longitude: -74.1496172, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'Orlando City SC', latitude: 28.5388985, longitude: 81.4033425, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'Philadelphia Union', latitude: 39.8330235, longitude: -75.3778345, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'Portland Timbers', latitude: 45.5216743, longitude: -122.6908289, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'Real Salt Lake', latitude: 40.5830245, longitude: -111.8932777, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'Seattle Sounders SC', latitude: 47.5933039, longitude: -122.3321654, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'San Jose Earthquakes', latitude: 37.3517215, longitude: -121.9228201, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'Sporting Kansas City', latitude: 39.122757, longitude: -94.8249294, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'Toronto FC', latitude: 43.6862557, longitude: -79.5811089, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		 {name: 'Vancouver Whitecaps FC', latitude: 49.2766941, longitude: -123.1119982, radius: 15, fillKey: 'eq50', Total_Salary: ''},
+		], {
+		 popupTemplate: function(geo, data) {
+		   return "<div class='hoverinfo'>Team: " + data.name + "<br />Total Salary: " + data.Total_Salary + " U$D</div>";
+		 }
+
+		}); //
+
+
+	</script>
+</div>
+	
+</body>
+</html>
