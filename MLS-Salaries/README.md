@@ -22,7 +22,7 @@ You can join the **_SalaryShortClub_** field from the salaries table with the **
 |SalaryName          |John Doe          |First & Last Name concatenated                                        |
 |SalaryPos           |GK                |Position (goalkeeper in example)                                      |
 |SalaryBaseSalary    |200000.00         |Annual salary (in USD)                                                |
-|SalaryCompensation  |250000.00         |Annual salary including bonuses (in USD)                              |
+|SalaryCompensation  |250000.00         |Annual salary including annualized bonuses (in USD)    |
 |SalaryDate          |July 10, 2008     |                                                                      |
 |SalaryYear          |2008              |                                                                      |
 |SalaryMonth         |July              |                                                                      |
