@@ -6,4 +6,4 @@ Most files are available in CSV and/or JSON format.
 If you find something useful, please [let me know](http://alexandre-mille.com/#Contact).
 
 Current Project(s) :
-+ [MLS Salaries](https://github.com/alexmille/DataSets/tree/master/MLS-Salaries) MLS players salaries (2007 - 2015)
++ [MLS Salaries](https://github.com/alexmille/DataSets/tree/master/MLS-Salaries)  _(2007 - 2015)_
