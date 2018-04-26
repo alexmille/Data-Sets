@@ -1,14 +1,14 @@
-#MLS Salaries
+# MLS Salaries
 Major League Soccer players salaries from 2007 until 2015 :
 + Source : [Major League Soccer Players Union website](https://www.mlsplayers.org/salary_info.html)
 + Raw data extracted from pdf files with [Tabula](http://tabula.technology/)
 + Cleaned with [OpenRefine](http://openrefine.org/) and Excel
 
-##Available Files :
+## Available Files :
 There are 2 tables available: salaries and mlsTeams.
 You can join the **_SalaryShortClub_** field from the salaries table with the **_Short_** field present in the mlsTeams table.
 
-###Salaries
+### Salaries
 + [salaries.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/salaries.csv)
 + [salaries.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/salaries.json)
 
@@ -49,7 +49,7 @@ Salaries are available for the following years and months :
 |2014	|Q3	|September
 |2015	|Q3	|September
 
-###Teams
+### Teams
 + [mlsTeams.csv](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.csv)
 + [mlsTeams.json](https://github.com/alexmille/DataSets/blob/master/MLS-Salaries/mlsTeams.json)
 
@@ -72,7 +72,7 @@ Salaries are available for the following years and months :
 
 
 
-##Quick Facts
+## Quick Facts
 (*source wikipedia*)
 * MLS began play in **1996** with **10 teams**
 * The **first game** was held on **April 6, 1996**, as the San Jose Clash defeated D.C. United
